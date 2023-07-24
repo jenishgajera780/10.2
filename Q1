@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+void arr(){
+		
+int j,p ;
+int sum=0;
+	
+	printf("write array size - ");
+	scanf("%d",&j);
+	
+	int o[j];
+	
+	printf("\n");	
+	printf("Enter array elaments :- \n");	
+	for(p=0;p<=j;p++){
+	
+  printf("o[%d] = ",p);
+	
+  scanf("%d",&o[p]);
+  sum += o[p];	}
+	printf("\n");	
+	printf("Sum of array is %d",sum);}
+
+void main()
+
+{
+     arr();	
+}
